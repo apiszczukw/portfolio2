@@ -1,0 +1,32 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Glass+Antiqua&family=Oswald:wght@200&display=swap');
+
+:root {
+    /* deklaracja zmiennych dla kolorów z palety */
+    --primary-100: #B2DFDB;
+    --primary-200: #80CBC4;
+    --primary-300: #4DB6AC;
+    --primary-400: #26A69A;
+    --primary-500: #009688;
+    --primary-600: #00897B;
+    --primary-700: #00796B;
+    --primary-800: #00695C;
+    --primary-900: #004D40;
+
+    --backgroundcolor: var(--primary-100);
+    --fontcolor: var(--primary-700);
+
+    /* deklaracja zmiennych dla czcionek */
+    --headerfont: 'Agbalumo', cursive;
+    --bodyfont: 'Oswald', sans-serif;
+    --specialfont: 'Glass Antiqua', cursive;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    color: var(--fontcolor);
+    font-family: var(--bodyfont);
+}
+
+h1 {
+    font-family: var(--headerfont);
+}
