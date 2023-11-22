@@ -2136,6 +2136,7 @@
     <Content Include="Zasoby\FontAwesome\svgs\solid\yin-yang.svg" />
     <Content Include="Zasoby\FontAwesome\svgs\solid\z.svg" />
     <Content Include="Zasoby\Grafiki\logo.jpg" />
+    <Content Include="Zasoby\script.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
