@@ -26,6 +26,7 @@ body {
     color: var(--fontcolor);
     font-family: var(--bodyfont);
     margin: 0;
+    line-height: 1.75;
 }
 
 h1 {
@@ -95,4 +96,63 @@ a {
 
 .show-links {
     height: 315px;
+}
+
+
+/* reguła szerokiego ekranu */
+
+@media screen and (min-width: 600px) {
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-links {
+        height: auto;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-center {
+        display: flex;
+        max-width: 1280px;
+    }
+
+    .nav-link {
+        border: none;
+        margin-right: 0.8rem;
+    }
+
+    .nav-header {
+        margin-right: 2rem;
+    }
+
+    .contact-link {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+/* STOPKA */
+.page-footer {
+    background-color: black;
+    color: var(--primary-100);
+    font-family: var(--specialfont);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+#name {
+    color: var(--primary-300);
+    text-decoration: underline var(--primary-700);
+}
+
+.main-page {
+    height: calc(100vh - 10rem);
+    max-width: 1280px;
+    margin: 0 auto;
 }
