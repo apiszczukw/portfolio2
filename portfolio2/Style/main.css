@@ -31,6 +31,7 @@ body {
 
 h1 {
     font-family: var(--headerfont);
+    margin: 0;
 }
 
 .navbar {
@@ -155,4 +156,55 @@ a {
     height: calc(100vh - 10rem);
     max-width: 1280px;
     margin: 0 auto;
+    width: 90vw;
+
+    /*background-color: var(--primary-400);*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div[class|='welcome'] {
+    font-size: 2rem;
+    font-family: var(--specialfont);
+    color: var(--primary-200);
+    position: relative;
+}
+
+    div[class|='welcome']::after {
+        content: attr(data-loading-text);
+        color: var(--primary-600);
+        position: absolute;
+        left: 0;
+        width: 0%;
+        overflow: hidden;
+        
+        animation-name: loading;
+        
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    }
+
+.welcome::after {
+    animation-duration: 2s;
+}
+
+.welcome-name::after {
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.welcome-job::after {
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
 }
