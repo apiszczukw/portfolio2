@@ -153,7 +153,7 @@ a {
 }
 
 .main-page {
-    height: calc(100vh - 10rem);
+    min-height: calc(100vh - 10rem);
     max-width: 1280px;
     margin: 0 auto;
     width: 90vw;
@@ -208,3 +208,38 @@ div[class|='welcome'] {
         width: 100%;
     }
 }
+
+/* PROJEKTY */
+.project > img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 150px;
+    padding: 0.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.project {
+    flex: 1;
+}
+
+.project > p {
+    padding: 0 2rem; 
+}
+
+p > b {
+    margin-right: 1.5rem;
+}
+
+/* link do umieszczenia projektu w wersji końcowej */
+/* utworzyć folder z imieniem i nazwiskiem -> umieścić zipa */
+/* tiny.pl/csxxs */
+
+/* wytyczne dla strony CV i kontakt */
+/* tiny.pl/csxxz */

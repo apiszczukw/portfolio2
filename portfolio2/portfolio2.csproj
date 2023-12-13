@@ -2136,6 +2136,13 @@
     <Content Include="Zasoby\FontAwesome\svgs\solid\yin-yang.svg" />
     <Content Include="Zasoby\FontAwesome\svgs\solid\z.svg" />
     <Content Include="Zasoby\Grafiki\logo.jpg" />
+    <Content Include="Zasoby\Ikona\about.txt" />
+    <Content Include="Zasoby\Ikona\android-chrome-192x192.png" />
+    <Content Include="Zasoby\Ikona\android-chrome-512x512.png" />
+    <Content Include="Zasoby\Ikona\apple-touch-icon.png" />
+    <Content Include="Zasoby\Ikona\favicon-16x16.png" />
+    <Content Include="Zasoby\Ikona\favicon-32x32.png" />
+    <Content Include="Zasoby\Ikona\favicon.ico" />
     <Content Include="Zasoby\script.js" />
   </ItemGroup>
   <ItemGroup>
@@ -2202,6 +2209,7 @@
     <Content Include="Zasoby\FontAwesome\webfonts\fa-solid-900.woff2" />
     <Content Include="Zasoby\FontAwesome\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Zasoby\FontAwesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Zasoby\Ikona\site.webmanifest" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
